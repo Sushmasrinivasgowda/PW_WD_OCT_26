@@ -17,18 +17,30 @@ else{
 }
 
 
-//use switch when one varible have many fixed value
+//use switch when one variable can have many fixed values
 
+// switch (key) {
+//     case value:
+        
+//         break;
 
+//     default:
+//         break;
+// }
 
-let alerttype = "modal"
+let alertType = "confirm"
 
-switch(alerttype){
+switch(alertType){
+
     case "simple":
-        console.log('simple alert');
-        case "prompt":
-            console.log('prompt aleart');
-            default:
-                console.log('invalid')
+        console.log("simple alert");
+        break
+        case "confirm":
+            console.log("confirm alert");
+            break
+            case "prompt":
+                console.log('prompt alert');
+                break
+                default:
+                    console.log('invalid alert');
 }
-

@@ -25,21 +25,79 @@ console.log(a-=10);
 console.log(a*=2);
 console.log(a/=6);
 
-//Comparision operator
 
-//losse equlity(--) -> compare only the value
-//type coerction -> conversion
-console.log(2=='2'); //true
-console.log(2==true); //false
-console.log(1==false); //false
-console.log(1==true); //true
+// //Comparision operators
 
-//strict equality(===) -> compare both value and datatype
+// //loose equality(==) => compare only the value
+// //type coercion => type conversion
 
-console.log(2==='2'); //false
-console.log(null === undefined) //false
+// console.log(2=='2'); //true
+// console.log(2==true);  //false
+// console.log(1 == false); //false
+// console.log(1 == true) //true
 
-// note: alwaysrecomended to use strict equlity
+// //strict equality(===) => compare both the value and datatype 
+
+// console.log(2==='2'); //false
+// console.log(null === undefined); ////false
 
 //logical operator
-console.log(a>b && b>a); //(false && true)
+
+//And(true&&true), OR(true || false)and NOT (!true)
+
+let a =2
+let b =6
+
+console.log(a>b && b>a);//(false && true)
+console.log(a<b && b>a) //(true && true)
+
+console.log(a>b || b>a) //(false || true)
+console.log(!a>b);
+
+//unary operator
+
+//works on single operand
+
+//pre increment (++x)
+//increment the value by 1
+
+x = 5
+
+console.log(++x); //6
+//console.log();
+
+//post increment (x++)
+
+console.log(x++);
+console.log(x);
+
+//decrement -> decrement the value by 1
+
+//pre decrement
+
+y = 3
+
+console.log(--y);//2
+
+//post decrement
+
+console.log(y--);
+console.log(y);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
